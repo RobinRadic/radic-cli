@@ -14,8 +14,12 @@ radic-cli features a stand-alone application next to the embeddable features. Th
 
 
 ## Usage and features
-#### radic-cli ps1
-Adds a custom ps1 and ps2 prompt to bash
+```bash
+radic-cli ps1
+```
+Adds a custom ps1 and ps2 prompt to bash:
+
+![radic-cli custom ps1 prompt](https://raw.githubusercontent.com/RobinRadic/radic-cli/master/bash-prompt.jpeg)
 
 
 ## Integration into existing project
