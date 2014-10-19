@@ -13,14 +13,26 @@ radic-cli features a stand-alone application next to the embeddable features. Th
 
 
 
-## Usage and features
+## Overview of main features
+
+#### Bash PS1 and PS2 prompt
 ```bash
-radic-cli ps1
+$ radic-cli ps1
 ```
-Adds a custom ps1 and ps2 prompt to bash:
+Adds a custom ps1 and ps2 prompt to bash. Makes use of the [liquidprompt](https://github.com/nojhan/liquidprompt) library internally. It's also possible to export the theme so you can modify it to suit your needs.
 
 ![radic-cli custom ps1 prompt](https://raw.githubusercontent.com/RobinRadic/radic-cli/master/bash-prompt.jpeg)
 
+
+#### Wizards
+An example of what can be created. The preview shows `radic gitinit` from my [radic](http://npmjs.org/package/radic) tool, which utilizes radic-cli.
+
+![radic gitinit preview](https://raw.githubusercontent.com/RobinRadic/radic-cli/master/wizard1.jpeg)
+
+![radic gitinit preview2](https://raw.githubusercontent.com/RobinRadic/radic-cli/master/wizard2.jpeg)
+
+#### UI's
+Fast and painless UI creation with using blessed in the background. It uses pre-defined theme's, styles and widgets to quickly display content. Custom theme/style/widgets creation is supported and are able to inherit/extend from others. 
 
 ## Integration into existing project
 ```js
