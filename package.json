@@ -1,0 +1,49 @@
+{
+  "name": "radic-cli",
+  "version": "0.0.1",
+  "description": "Cli module the way I want it",
+  "main": "index.js",
+  "bin": {
+    "radic-cli": "bin/radic-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinradic/radic-cli"
+  },
+  "keywords": [
+    "cli",
+    "radic"
+  ],
+  "author": "Robin Radic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinradic/radic-cli/issues"
+  },
+  "homepage": "https://github.com/robinradic/radic-cli",
+  "dependencies": {
+    "ascii-art": "0.0.2-alpha",
+    "async": "^0.9.0",
+    "blessed": "0.0.37",
+    "cli": "^0.6.4",
+    "cli-color": "^0.3.2",
+    "cli-table": "^0.3.0",
+    "fs-extra": "^0.12.0",
+    "inquirer": "^0.8.0",
+    "moment": "^2.8.3",
+    "nconf": "^0.6.9",
+    "q": "^1.0.1",
+    "underscore": "^1.7.0",
+    "colors": "0.5.x",
+    "disposable": "0.0.x",
+    "outcome": "0.0.x",
+    "structr": "0.2.x",
+    "tq": "0.0.x",
+    "crema": "0.1.x",
+    "beanpoll": "0.2.x",
+    "plugin": "0.3.x",
+    "dsync": "0.0.x"
+  }
+}

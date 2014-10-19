@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+process.title = 'radic-cli';
+var radicCli = require('../index.js');
+radicCli.createApplication();
