@@ -8,7 +8,7 @@ function patch {
 
     npm version patch
 
-    local version=`radic version`
+    local version=`radic-cli version`
 
     git push -u origin v${version}
 
