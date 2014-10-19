@@ -178,12 +178,12 @@ HOSTCOL="\[\033[$HOSTCOL\]"
 
             LP_PS1="${LP_PS1}${amarokFc}${bg_medgrey}${bold} ♪ ${amarokSongTitle} ♬ ${off}"
         fi
-
+    fi
 
         # NEWLINE THEN PROMPT MARKER. END OF PS1
         export LP_PS1="${LP_PS1}\n${bg_grey}${darkyellow}${bold} \$ ${off} "
         export PS2="${bg_grey}${darkyellow}${bold} > ${off} "
-    fi
+
 
 }
 

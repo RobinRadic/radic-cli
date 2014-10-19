@@ -1,6 +1,6 @@
 #!/bin/sh
 
-rdir=/mnt/safe/node/radic/storage/ps1/
+rdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 
 #source $rdir/config.sh
