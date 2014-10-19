@@ -1,6 +1,6 @@
 {
   "name": "radic-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cli module the way I want it",
   "main": "index.js",
   "bin": {
