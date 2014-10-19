@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# version :type
+function patch {
+    local message=$1
+
+    commit $message
+
+    npm version patch
+
+    local version=`radic version`
+
+    git push -u origin v${version}
+
+    npm publish
+}
+
+
+
+$*
