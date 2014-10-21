@@ -26,24 +26,25 @@
   "dependencies": {
     "ascii-art": "0.0.2-alpha",
     "async": "^0.9.0",
+    "beanpoll": "0.2.x",
     "blessed": "0.0.37",
     "cli": "^0.6.4",
     "cli-color": "^0.3.2",
     "cli-table": "^0.3.0",
+    "colors": "0.5.x",
+    "crema": "0.1.x",
+    "disposable": "0.0.x",
+    "dsync": "0.0.x",
     "fs-extra": "^0.12.0",
     "inquirer": "^0.8.0",
     "moment": "^2.8.3",
     "nconf": "^0.6.9",
-    "q": "^1.0.1",
-    "underscore": "^1.7.0",
-    "colors": "0.5.x",
-    "disposable": "0.0.x",
     "outcome": "0.0.x",
+    "plugin": "0.3.x",
+    "q": "^1.0.1",
     "structr": "0.2.x",
     "tq": "0.0.x",
-    "crema": "0.1.x",
-    "beanpoll": "0.2.x",
-    "plugin": "0.3.x",
-    "dsync": "0.0.x"
+    "underscore": "^1.7.0",
+    "winston": "^0.8.1"
   }
 }
