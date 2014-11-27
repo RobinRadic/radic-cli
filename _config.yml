@@ -1,5 +1,5 @@
-title: Radic builder
-description: Custom JS Library builder using jQuery's build method
+title: Radic CLI
+description: NodeJS module that can be embedded into other projects to handle command line input/output.
 
 url: //robinradic.github.io
 

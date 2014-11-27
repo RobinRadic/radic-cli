@@ -71,7 +71,7 @@ $ radic-cli config get my:dinner:snacks:1
 $ radic-cli config get my
 {% endhighlight %}
 
-{% highlight json %}
+{% highlight js %}
 {
     "breakfast": "pizza",
     "dinner": { 
@@ -118,7 +118,7 @@ myapp.cli: Cli(myapp.name)
 {% endhighlight %}
 
 ##### Tools and methods
-{% endhighlight js %}
+{% highlight js %}
 var RadicCli = require('radic-cli'),
     Cli = RadicCli.Cli,
     Config = RadicCli.Config,
