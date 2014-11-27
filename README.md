@@ -15,7 +15,7 @@ So yeah, this is a highly opinionated library. However, it features a plugin lik
 
 radic-cli features a stand-alone application next to the embeddable features. The stand alone application can be invoked by the command `radic-cli` and will give you an overview of possible commands.
 
-[Check out the documentation here]((http://robinradic.github.io/radic-cli)
+[Check out the documentation here](http://robinradic.github.io/radic-cli)
 
 License
 --------------
