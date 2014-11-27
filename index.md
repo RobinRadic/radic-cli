@@ -2,11 +2,11 @@
 layout: page
 title: Radic CLI
 ---
-- Current version: ` 0.0.1 `
-- Status: **under development**
-- License: [MIT Licensed](http://radic.mit-license.org)
-- Copyright 2014 [Robin Radic](https://github.com/RobinRadic)
-- Platform: **Linux** but might run on a crapple, not tested yet. 
+[![Build Status](https://secure.travis-ci.org/RobinRadic/radic-cli.svg?branch=master)](https://travis-ci.org/RobinRadic/radic-cli)
+[![GitHub version](https://badge.fury.io/gh/robinradic%2Fradic-cli.svg)](http://badge.fury.io/gh/robinradic%2Fradic-cli)
+[![Goto documentation](http://img.shields.io/badge/goto-documentation-orange.svg)](http://robinradic.github.io/radic-cli)
+[![Goto repository](http://img.shields.io/badge/goto-repository-orange.svg)](https://github.com/robinradic/radic-cli)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](http://radic.mit-license.org)
 
 ## Description
 radic-cli is a NodeJS module that can be embedded into other projects to handle command line input/output. 
