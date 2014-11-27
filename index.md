@@ -43,16 +43,16 @@ Fast and painless UI creation with using blessed in the background. It uses pre-
 Note: most of these commands are also embeddable into other projects
 #### version
 {% highlight bash %}
-$ radic-cli version             # Shows the version string from package.json
-> 1.3.15
+radic-cli version             # Shows the version string from package.json
+#> 1.3.15
 
 # Show a part of the version string
 # radic-cli version previous|current|next major|minor|patch
-$ radic-cli version current major 
-> 1
+radic-cli version current major
+#> 1
 
-$ radic-cli version next major
-> 2
+radic-cli version next major
+#> 2
 {% endhighlight %}
 
 #### config
@@ -70,7 +70,8 @@ $ radic-cli config get my:dinner:snacks:1
 
 $ radic-cli config get my
 {% endhighlight %}
-{% endhighlight %}json
+
+{% highlight json %}
 {
     "breakfast": "pizza",
     "dinner": { 
@@ -92,7 +93,7 @@ Or check out [radic-cli examples](https://npmjs.org/packages/radic-cli-examples)
 
 #### Embedding the cli
 This is an example directory/file structure, you can put your stuff wherever yo want.
-{% endhighlight %}js
+{% highlight js %}
 // bin/myappcmd
 process.title = 'myapp';
 var myapp = require('../index.js');
@@ -117,7 +118,7 @@ myapp.cli: Cli(myapp.name)
 {% endhighlight %}
 
 ##### Tools and methods
-{% endhighlight %}js
+{% endhighlight js %}
 var RadicCli = require('radic-cli'),
     Cli = RadicCli.Cli,
     Config = RadicCli.Config,
