@@ -1,7 +1,7 @@
 radic-cli
 ==========
 [![Build Status](https://secure.travis-ci.org/RobinRadic/radic-cli.svg?branch=master)](https://travis-ci.org/RobinRadic/radic-cli)
-[![GitHub version](https://badge.fury.io/gh/robinradic/radic-cli.svg)](http://badge.fury.io/gh/robinradic/radic-cli)
+[![GitHub version](https://badge.fury.io/gh/robinradic%2Fradic-cli.svg)](http://badge.fury.io/gh/robinradic%2Fradic-cli)
 [![Goto documentation](http://img.shields.io/badge/goto-documentation-orange.svg)](http://robinradic.github.io/radic-cli)
 [![Goto repository](http://img.shields.io/badge/goto-repository-orange.svg)](https://github.com/robinradic/radic-cli)
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](http://radic.mit-license.org)
@@ -15,6 +15,7 @@ So yeah, this is a highly opinionated library. However, it features a plugin lik
 
 radic-cli features a stand-alone application next to the embeddable features. The stand alone application can be invoked by the command `radic-cli` and will give you an overview of possible commands.
 
+[Check out the documentation here]((http://robinradic.github.io/radic-cli)
 
 License
 --------------
