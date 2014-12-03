@@ -167,19 +167,27 @@ HOSTCOL="\[\033[$HOSTCOL\]"
 
     # Amarok current song
 
+        local amarokOk=$(eval `qdbus | grep amarok`)
+
+    if ! [ -z "$amarokOk" ]; then
+
+
     if [[ $DISPLAY ]]; then
-        local amarokSongTitle="$(eval 'qdbus org.mpris.amarok /Player GetMetadata | grep title | sed s/title:\ //g')"
-        if [[ $amarokSongTitle ]]; then
-            amarokSongPosition="$(eval 'qdbus org.mpris.amarok /Player PositionGet')"
-            amarokSongLength="$(eval 'qdbus org.mpris.amarok /Player GetMetadata | grep mtime | sed s/mtime:\ //g')"
-         #   amarokSongLengthMinutes="$(eval "php -r 'echo ceil($amarokSongLength/1000/60, 2);'")"
 
-         #   echo "$amarokSongLengthMinutes;"
 
-            LP_PS1="${LP_PS1}${amarokFc}${bg_medgrey}${bold} ♪ ${amarokSongTitle} ♬ ${off}"
-        fi
+
+            local amarokSongTitle="$(eval 'qdbus org.mpris.amarok /Player GetMetadata | grep title | sed s/title:\ //g')"
+            if [[ $amarokSongTitle ]]; then
+                amarokSongPosition="$(eval 'qdbus org.mpris.amarok /Player PositionGet')"
+                amarokSongLength="$(eval 'qdbus org.mpris.amarok /Player GetMetadata | grep mtime | sed s/mtime:\ //g')"
+             #   amarokSongLengthMinutes="$(eval "php -r 'echo ceil($amarokSongLength/1000/60, 2);'")"
+
+             #   echo "$amarokSongLengthMinutes;"
+
+                LP_PS1="${LP_PS1}${amarokFc}${bg_medgrey}${bold} ♪ ${amarokSongTitle} ♬ ${off}"
+            fi
     fi
-
+fi
         # NEWLINE THEN PROMPT MARKER. END OF PS1
         export LP_PS1="${LP_PS1}\n${bg_grey}${darkyellow}${bold} \$ ${off} "
         export PS2="${bg_grey}${darkyellow}${bold} > ${off} "
